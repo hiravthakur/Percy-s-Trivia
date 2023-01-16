@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3840DF88296F5F140092809F /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3840DF87296F5F140092809F /* ScoreView.swift */; };
+		3840DF8A296F61A90092809F /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3840DF89296F61A90092809F /* ScoreViewModel.swift */; };
 		38D1239C296B9BF8008A8DB1 /* Percy_s_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1239B296B9BF8008A8DB1 /* Percy_s_TriviaApp.swift */; };
-		38D1239E296B9BF8008A8DB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1239D296B9BF8008A8DB1 /* ContentView.swift */; };
+		38D1239E296B9BF8008A8DB1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1239D296B9BF8008A8DB1 /* GameView.swift */; };
 		38D123A0296B9BF9008A8DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D1239F296B9BF9008A8DB1 /* Assets.xcassets */; };
 		38D123A3296B9BF9008A8DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D123A2296B9BF9008A8DB1 /* Preview Assets.xcassets */; };
 		38D123AD296B9BF9008A8DB1 /* Percy_s_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123AC296B9BF9008A8DB1 /* Percy_s_TriviaTests.swift */; };
 		38D123B7296B9BF9008A8DB1 /* Percy_s_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123B6296B9BF9008A8DB1 /* Percy_s_TriviaUITests.swift */; };
 		38D123B9296B9BF9008A8DB1 /* Percy_s_TriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123B8296B9BF9008A8DB1 /* Percy_s_TriviaUITestsLaunchTests.swift */; };
+		38D123C6296C8644008A8DB1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123C5296C8644008A8DB1 /* Question.swift */; };
+		38D123C8296C8A1C008A8DB1 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123C7296C8A1C008A8DB1 /* ChoiceTextView.swift */; };
+		38D123CA296DCA14008A8DB1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123C9296DCA14008A8DB1 /* Game.swift */; };
+		38D123D0296EF01F008A8DB1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123CF296EF01F008A8DB1 /* WelcomeView.swift */; };
+		38D123D2296F36BD008A8DB1 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123D1296F36BD008A8DB1 /* GameColor.swift */; };
+		38D123D5296F4AAE008A8DB1 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123D4296F4AAE008A8DB1 /* GameViewModel.swift */; };
+		38D123D7296F4F74008A8DB1 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123D6296F4F74008A8DB1 /* QuestionView.swift */; };
+		38D123D9296F5800008A8DB1 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D123D8296F5800008A8DB1 /* BottomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3840DF87296F5F140092809F /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		3840DF89296F61A90092809F /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		38D12398296B9BF8008A8DB1 /* Percy's Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Percy's Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D1239B296B9BF8008A8DB1 /* Percy_s_TriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percy_s_TriviaApp.swift; sourceTree = "<group>"; };
-		38D1239D296B9BF8008A8DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38D1239D296B9BF8008A8DB1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		38D1239F296B9BF9008A8DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D123A2296B9BF9008A8DB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38D123A8296B9BF9008A8DB1 /* Percy's TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Percy's TriviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,14 @@
 		38D123B2296B9BF9008A8DB1 /* Percy's TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Percy's TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D123B6296B9BF9008A8DB1 /* Percy_s_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percy_s_TriviaUITests.swift; sourceTree = "<group>"; };
 		38D123B8296B9BF9008A8DB1 /* Percy_s_TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percy_s_TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38D123C5296C8644008A8DB1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		38D123C7296C8A1C008A8DB1 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		38D123C9296DCA14008A8DB1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		38D123CF296EF01F008A8DB1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		38D123D1296F36BD008A8DB1 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		38D123D4296F4AAE008A8DB1 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		38D123D6296F4F74008A8DB1 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		38D123D8296F5800008A8DB1 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +94,10 @@
 		38D1238F296B9BF7008A8DB1 = {
 			isa = PBXGroup;
 			children = (
+				38D123CC296DCA70008A8DB1 /* Views */,
 				38D1239A296B9BF8008A8DB1 /* Percy's Trivia */,
+				38D123D3296F4A89008A8DB1 /* ViewModels */,
+				38D123CB296DCA4D008A8DB1 /* Models */,
 				38D123AB296B9BF9008A8DB1 /* Percy's TriviaTests */,
 				38D123B5296B9BF9008A8DB1 /* Percy's TriviaUITests */,
 				38D12399296B9BF8008A8DB1 /* Products */,
@@ -95,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				38D1239B296B9BF8008A8DB1 /* Percy_s_TriviaApp.swift */,
-				38D1239D296B9BF8008A8DB1 /* ContentView.swift */,
 				38D1239F296B9BF9008A8DB1 /* Assets.xcassets */,
 				38D123A1296B9BF9008A8DB1 /* Preview Content */,
 			);
@@ -125,6 +147,38 @@
 				38D123B8296B9BF9008A8DB1 /* Percy_s_TriviaUITestsLaunchTests.swift */,
 			);
 			path = "Percy's TriviaUITests";
+			sourceTree = "<group>";
+		};
+		38D123CB296DCA4D008A8DB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38D123C5296C8644008A8DB1 /* Question.swift */,
+				38D123C9296DCA14008A8DB1 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38D123CC296DCA70008A8DB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38D1239D296B9BF8008A8DB1 /* GameView.swift */,
+				38D123C7296C8A1C008A8DB1 /* ChoiceTextView.swift */,
+				38D123CF296EF01F008A8DB1 /* WelcomeView.swift */,
+				38D123D1296F36BD008A8DB1 /* GameColor.swift */,
+				38D123D6296F4F74008A8DB1 /* QuestionView.swift */,
+				38D123D8296F5800008A8DB1 /* BottomTextView.swift */,
+				3840DF87296F5F140092809F /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38D123D3296F4A89008A8DB1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				38D123D4296F4AAE008A8DB1 /* GameViewModel.swift */,
+				3840DF89296F61A90092809F /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +311,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D1239E296B9BF8008A8DB1 /* ContentView.swift in Sources */,
+				38D123C6296C8644008A8DB1 /* Question.swift in Sources */,
+				38D123D0296EF01F008A8DB1 /* WelcomeView.swift in Sources */,
+				38D123CA296DCA14008A8DB1 /* Game.swift in Sources */,
+				3840DF8A296F61A90092809F /* ScoreViewModel.swift in Sources */,
+				38D1239E296B9BF8008A8DB1 /* GameView.swift in Sources */,
+				38D123D9296F5800008A8DB1 /* BottomTextView.swift in Sources */,
+				38D123D5296F4AAE008A8DB1 /* GameViewModel.swift in Sources */,
+				38D123D2296F36BD008A8DB1 /* GameColor.swift in Sources */,
+				3840DF88296F5F140092809F /* ScoreView.swift in Sources */,
+				38D123C8296C8A1C008A8DB1 /* ChoiceTextView.swift in Sources */,
+				38D123D7296F4F74008A8DB1 /* QuestionView.swift in Sources */,
 				38D1239C296B9BF8008A8DB1 /* Percy_s_TriviaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
